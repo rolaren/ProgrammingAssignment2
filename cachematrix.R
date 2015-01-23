@@ -11,7 +11,7 @@
 ## How to use cachematrix.R
 ## Load the file        ## source("cachematrix.R")
 ## Create a matrix      ## mymatrix <- matrix(c(9,1,3,6,13,11,7,0,5,7,4,7,2,6,1,10), ncol = 4, nrow=4)
-## Store the matrix     ## mCM <- makeCacheMatrix(mCM)
+## Store the matrix     ## mCM <- makeCacheMatrix(mymatrix)
 ## Solve the inverse    ## cacheSolve(mCM)
 
 
